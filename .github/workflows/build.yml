@@ -33,7 +33,7 @@ on:
 
 jobs:
   build-installer:
-    runs-on: macos-15-intel
+    runs-on: macos-26
     timeout-minutes: 70
 
     steps:
