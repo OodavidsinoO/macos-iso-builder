@@ -6,6 +6,7 @@ on:
 
 jobs:
   refresh-forks:
+    if: github.repository_owner == 'LongQT-sea' # Be mindful of free public resources
     runs-on: ubuntu-latest
     permissions:
       contents: write # needed to create releases
